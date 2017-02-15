@@ -13,7 +13,7 @@ on post-fs-data
     rm /data/misc/adb/adb_keys_temp
 
     # Enable clk debug on suspend
-    write /d/clk/debug_suspend 1
+    write /d/clk/debug_suspend 0
 
 on boot
     chmod 666 /dev/diag
